@@ -42,7 +42,7 @@ Rows = training language. Columns = test language. Cells = PoS tagging accuracy 
 
 Diagonal entries are monolingual; off-diagonal entries measure zero-shot cross-lingual transfer.
 
-![Transfer heatmap](fig_heatmap.png)
+![Transfer heatmap](figs/output1.png)
 
 ---
 
@@ -86,7 +86,7 @@ mBERT truncates at 512 subword tokens. The table below confirms that truncation 
 
 The French Sequoia test set is used for the inspection questions (label distribution, multiword tokens, tokens containing spaces). The MWT-merge rule used throughout this work keeps composite tokens like `au` (= `à` + `le`) as a single token with the concatenated label `ADP+DET`.
 
-![Sequoia UPOS distribution](fig_sequoia_dist.png)
+![Sequoia UPOS distribution](figs/output.png)
 
 ---
 
