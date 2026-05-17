@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ud_data/
+lab5_mbert_pos/
+checkpoints-*/
+final-*/
+eval-*/
+*.docx
+*.pdf
+.DS_Store
+.env
